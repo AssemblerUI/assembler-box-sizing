@@ -1,0 +1,117 @@
+/*
+  BOX SIZING
+
+  A saner box-model.
+  Only applied to unqualified elements where this model makes sense.
+
+  Apply .border-box where needed.
+  
+  Taken from http://tachyons.io/docs/layout/box-sizing/
+
+*/
+/* line 39, ../src/sass/_box-sizing.scss */
+nav, nav::before, nav::after {
+  box-sizing: border-box;
+}
+
+/* line 39, ../src/sass/_box-sizing.scss */
+main, main::before, main::after {
+  box-sizing: border-box;
+}
+
+/* line 39, ../src/sass/_box-sizing.scss */
+section, section::before, section::after {
+  box-sizing: border-box;
+}
+
+/* line 39, ../src/sass/_box-sizing.scss */
+article, article::before, article::after {
+  box-sizing: border-box;
+}
+
+/* line 39, ../src/sass/_box-sizing.scss */
+aside, aside::before, aside::after {
+  box-sizing: border-box;
+}
+
+/* line 39, ../src/sass/_box-sizing.scss */
+header, header::before, header::after {
+  box-sizing: border-box;
+}
+
+/* line 39, ../src/sass/_box-sizing.scss */
+footer, footer::before, footer::after {
+  box-sizing: border-box;
+}
+
+/* line 39, ../src/sass/_box-sizing.scss */
+div, div::before, div::after {
+  box-sizing: border-box;
+}
+
+/* line 39, ../src/sass/_box-sizing.scss */
+details, details::before, details::after {
+  box-sizing: border-box;
+}
+
+/* line 39, ../src/sass/_box-sizing.scss */
+summary, summary::before, summary::after {
+  box-sizing: border-box;
+}
+
+/* line 39, ../src/sass/_box-sizing.scss */
+form, form::before, form::after {
+  box-sizing: border-box;
+}
+
+/* line 39, ../src/sass/_box-sizing.scss */
+fieldset, fieldset::before, fieldset::after {
+  box-sizing: border-box;
+}
+
+/* line 39, ../src/sass/_box-sizing.scss */
+textarea, textarea::before, textarea::after {
+  box-sizing: border-box;
+}
+
+/* line 39, ../src/sass/_box-sizing.scss */
+input[type="text"], input[type="text"]::before, input[type="text"]::after {
+  box-sizing: border-box;
+}
+
+/* line 39, ../src/sass/_box-sizing.scss */
+input[type="tel"], input[type="tel"]::before, input[type="tel"]::after {
+  box-sizing: border-box;
+}
+
+/* line 39, ../src/sass/_box-sizing.scss */
+input[type="url"], input[type="url"]::before, input[type="url"]::after {
+  box-sizing: border-box;
+}
+
+/* line 39, ../src/sass/_box-sizing.scss */
+input[type="email"], input[type="email"]::before, input[type="email"]::after {
+  box-sizing: border-box;
+}
+
+/* line 39, ../src/sass/_box-sizing.scss */
+input[type="search"], input[type="search"]::before, input[type="search"]::after {
+  box-sizing: border-box;
+}
+
+/* line 39, ../src/sass/_box-sizing.scss */
+input[type="number"], input[type="number"]::before, input[type="number"]::after {
+  box-sizing: border-box;
+}
+
+/* line 39, ../src/sass/_box-sizing.scss */
+input[type="password"], input[type="password"]::before, input[type="password"]::after {
+  box-sizing: border-box;
+}
+
+/* line 39, ../src/sass/_box-sizing.scss */
+.border-box, .border-box::before, .border-box::after {
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=assembler-box-sizing.css.map */

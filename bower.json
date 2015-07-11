@@ -1,0 +1,39 @@
+{
+  "name": "assembler-box-sizing",
+  "description": "A box sizing component built for the Assembler framework",
+  "authors": [
+    "Chris Newton <chrisohpedia@gmail.com> (http://chrisnewton.me/about)"
+  ],
+  "version": "0.1.0",
+  "keywords": [
+    "box-model",
+    "box-sizing",
+    "css",
+    "sass",
+    "component"
+  ],
+  "main": [
+    "./dist/assembler-box-sizing.css",
+    "./dist/assembler-box-sizing.css.map",
+    "./dist/assembler-box-sizing.min.css",
+    "./dist/assembler-box-sizing.min.css.map"
+  ],
+  "homepage": "https://assemblerui.github.io/assembler-box-sizing",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AssemblerUI/assembler-box-sizing.git"
+  },
+  "license": "MIT",
+  "ignore": [
+    "/.*",
+    "node_modules",
+    "bower_components",
+    "tasks",
+    "browserlist",
+    "Gruntfile.js",
+    "CONTRIBUTING.md",
+    "OWNERS.md",
+    "component.json",
+    "package.json"
+  ]
+}

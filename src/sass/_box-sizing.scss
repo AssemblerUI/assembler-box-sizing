@@ -1,0 +1,46 @@
+/*
+  BOX SIZING
+
+  A saner box-model.
+  Only applied to unqualified elements where this model makes sense.
+
+  Apply .border-box where needed.
+  
+  Taken from http://tachyons.io/docs/layout/box-sizing/
+
+*/
+$elements: (
+	'nav',
+	'main',
+	'section',
+	'article',
+	'aside',
+	'header',
+	'footer',
+	'div',
+	'details',
+	'summary',
+	'form',
+	'fieldset',
+	'textarea',
+	'input[type="text"]',
+	'input[type="tel"]',
+	'input[type="url"]',
+	'input[type="email"]',
+	'input[type="search"]',
+	'input[type="number"]',
+	'input[type="password"]',
+	'.border-box'
+);
+
+@mixin box_sizing() {
+	@each $element in $elements {
+		#{$element} {
+			&, // reference to the parent
+			&::before,
+			&::after {
+				box-sizing: border-box;
+			}
+		}
+	}
+}
