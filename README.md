@@ -1,5 +1,7 @@
 # Assembler Box Sizing
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/AssemblerUI/assembler-box-sizing.svg)](https://greenkeeper.io/)
+
 A box sizing component built for the [Assembler framework](https://github.com/AssemblerUI/assembler).
 
 ## Table of contents
